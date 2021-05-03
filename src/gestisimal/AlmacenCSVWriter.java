@@ -3,7 +3,11 @@ package gestisimal;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-
+/**
+ * Escribe el CSV
+ * @author ryust
+ *
+ */
 public class AlmacenCSVWriter {
 
   static final String HEAD = 
@@ -15,6 +19,12 @@ public class AlmacenCSVWriter {
     this.almacen = almacen;
   }
   
+  /**
+   * Guarda el archivo CSV
+   * @param nombreFichero
+   * @throws IOException
+   * @throws ExistenciasNoValidasException
+   */
   void guardarArchivo(String nombreFichero) throws IOException, ExistenciasNoValidasException {
     file = new PrintWriter(nombreFichero);
     file.println(AlmacenCSV.HEAD);
@@ -23,6 +33,13 @@ public class AlmacenCSVWriter {
     }
     file.close();
   }
+  
+  /**
+   * Guardar Articulo
+   * @param articulo
+   * @throws IOException
+   * @throws ExistenciasNoValidasException
+   */
   private void guardarArticulo(Articulo articulo) throws IOException, ExistenciasNoValidasException {
 
     file.write("\"" + articulo.getDescripcion() + "\",");

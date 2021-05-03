@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 /**
- * 
+ * Carga el CSV
  * @author ryust
  *
  */
@@ -18,10 +18,17 @@ class AlmacenCSVLoader {
   private Almacen almacen;
   private BufferedReader file;
 
+  /**
+   * Constructor sin parametros de la clase CSV
+   */
   AlmacenCSVLoader() {
     this.almacen = new Almacen();
   }
 
+  /**
+   * Constructor con parametros
+   * @param almacen
+   */
   AlmacenCSVLoader(Almacen almacen) {
     this.almacen = almacen;
   }
@@ -31,7 +38,7 @@ class AlmacenCSVLoader {
   }
 
   /**
-   * 
+   * Carga el CSV
    * @param fileName
    * @throws IOException
    * @throws AlmacenCSVException
@@ -50,7 +57,7 @@ class AlmacenCSVLoader {
   }
 
   /**
-   * 
+   * Valida el HEAD del CSV
    * @throws IOException
    * @throws AlmacenCSVException
    */
@@ -62,7 +69,7 @@ class AlmacenCSVLoader {
   }
 
   /**
-   * 
+   * Crea un nuevo Articulo en el CSV
    * @param linea
    * @return Objeto Artículo
    * @throws AlmacenCSVException
@@ -94,7 +101,7 @@ class AlmacenCSVLoader {
   }
 
   /**
-   * 
+   * Valida el Articulo en el CSV
    * @param linea
    * @throws AlmacenCSVException
    */

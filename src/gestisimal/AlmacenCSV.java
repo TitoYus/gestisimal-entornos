@@ -3,7 +3,7 @@ package gestisimal;
 import java.io.IOException;
 
 /**
- * 
+ * Clase Almacen CSV
  * @author ryust
  *
  */
@@ -12,7 +12,7 @@ class AlmacenCSV {
       "Nombre,Existencias,PrecioCompra,PrecioVenta,NumeroVentas,StockSeguridad,StockMaximo";
   
   /**
-   * 
+   * Guarda el CSV
    * @param almacen
    * @param archivo
    * @throws IOException
@@ -24,7 +24,7 @@ class AlmacenCSV {
   }
   
   /**
-   * 
+   * Cargamos el CSV
    * @param archivo
    * @return Objeto Almacen
    * @throws IOException

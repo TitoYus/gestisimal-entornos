@@ -5,6 +5,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import com.google.gson.*;
 
+/**
+ * Carga y Guarda el Almacen en JSON
+ * @author ryust
+ *
+ */
 public class AlmacenJSON {
 
   /**
