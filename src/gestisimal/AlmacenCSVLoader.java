@@ -12,10 +12,18 @@ import java.nio.file.Paths;
  */
 class AlmacenCSVLoader {
   
+  /**
+   * Head del CSV
+   */
   static final String HEAD = 
       "Nombre,Existencias,PrecioCompra,PrecioVenta,NumeroVentas,StockSeguridad,StockMaximo";
-  
+  /**
+   * Objeto Almacen
+   */
   private Almacen almacen;
+  /**
+   * Objeto BufferedReader
+   */
   private BufferedReader file;
 
   /**

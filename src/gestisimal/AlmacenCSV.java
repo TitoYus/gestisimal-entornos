@@ -3,7 +3,8 @@ package gestisimal;
 import java.io.IOException;
 
 /**
- * Clase Almacen CSV
+ * Clase Almacen CSV.
+ * Descripcion Existe
  * @author ryust
  *
  */

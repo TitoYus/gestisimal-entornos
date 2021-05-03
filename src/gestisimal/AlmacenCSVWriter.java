@@ -4,15 +4,23 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Escribe el CSV
+ * Escribe el CSV.
  * @author ryust
- *
  */
 public class AlmacenCSVWriter {
 
+  /*
+   * Head del CSV
+   */
   static final String HEAD = 
       "Nombre,Existencias,PrecioCompra,PrecioVenta,NumeroVentas,StockSeguridad,StockMaximo";
+  /**
+   * Objeto Almacen
+   */
   private Almacen almacen;
+  /**
+   * Objeto PrintWriter
+   */
   private PrintWriter file;
   
   AlmacenCSVWriter(Almacen almacen) {
