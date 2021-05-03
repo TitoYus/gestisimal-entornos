@@ -11,6 +11,11 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+/**
+ * Carga el XML en un Almacen
+ * @author ryust
+ *
+ */
 public class AlmacenXMLLoader {
 
   /**

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Escribe el CSV.
+ * Escribe el CSV a raíz de un Almacen
  * @author ryust
  */
 public class AlmacenCSVWriter {

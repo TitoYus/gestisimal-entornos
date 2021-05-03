@@ -2,6 +2,11 @@ package gestisimal;
 
 import java.io.IOException;
 
+/**
+ * Guarda y Carga en XML el Almacen
+ * @author ryust
+ *
+ */
 class AlmacenXML {
 
   static final String ALMACEN = "Almacen";

@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 /**
- * Carga el CSV
+ * Carga el CSV en un Almacen
  * @author ryust
  *
  */

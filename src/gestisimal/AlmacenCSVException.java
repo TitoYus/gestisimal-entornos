@@ -1,7 +1,7 @@
 package gestisimal;
 
 /**
- * 
+ * Excepcion de la clase CSV
  * @author ryust
  *
  */

@@ -13,9 +13,20 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+/**
+ * Escribe el Almacen en un XML
+ * @author ryust
+ *
+ */
 public class AlmacenXMLWriter {
   
+  /**
+   * Objeto Almacen
+   */
   private Almacen almacen;
+  /**
+   * Objeto Document para usarlo posteriormente en los métodos
+   */
   private Document xml;
   
   /**
