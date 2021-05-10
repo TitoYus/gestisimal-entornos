@@ -21,16 +21,16 @@ public class Almacen extends ArrayList<Articulo>{
 
   /**
    * Metodo que añadir Artículos al almacen.
-   * @param nombre
-   * @param existencias
-   * @param precioCompra
-   * @param precioVenta
-   * @param numeroVentas
-   * @param stockSeguro
-   * @param stockMaximo
-   * @throws ArticuloYaExisteException 
-   * @throws ExistenciasNoValidasException 
-   * @throws PrecioNegativoException 
+   * @param nombre Nombre Articulo
+   * @param existencias Existencia Articulo 
+   * @param precioCompra Precio de Compra  Articulo
+   * @param precioVenta Precio de Venta Articulo
+   * @param numeroVentas Numero de Ventas Articulo
+   * @param stockSeguro Stock de Seguridad Articulo
+   * @param stockMaximo Stock Maximo Articulo
+   * @throws ArticuloYaExisteException Excepcion lanzada si el articulo ya existe
+   * @throws ExistenciasNoValidasException  Excepcion lanzada si las existencias no son validas
+   * @throws PrecioNegativoException Excepcion lanzada si el precio es negativo
    */
   void annadir(String nombre, int existencias, double precioCompra, double precioVenta,
       int numeroVentas, int stockSeguro, int stockMaximo) throws ArticuloYaExisteException, ExistenciasNoValidasException, PrecioNegativoException {
