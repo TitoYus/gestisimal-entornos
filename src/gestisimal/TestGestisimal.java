@@ -33,7 +33,7 @@ public class TestGestisimal {
   });
 
   /**
-   * Test de la clase Gestisimal
+   * Test de la clase Gestisimal que comprueba todas sus funciones
    * @param args
    * @throws ArticuloYaExisteException
    * @throws ArticuloCodigoNoValidoException

@@ -14,8 +14,8 @@ class AlmacenCSV {
   
   /**
    * Guarda el CSV
-   * @param almacen
-   * @param archivo
+   * @param almacen Objeto Almacen
+   * @param archivo Cadena usada para guardar el archivo
    * @throws IOException
    * @throws ExistenciasNoValidasException
    */
@@ -26,7 +26,7 @@ class AlmacenCSV {
   
   /**
    * Cargamos el CSV
-   * @param archivo
+   * @param archivo Cadena usada para cargar el archivo
    * @return Objeto Almacen
    * @throws IOException
    * @throws AlmacenCSVException
